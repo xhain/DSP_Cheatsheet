@@ -17,17 +17,12 @@
 \pagestyle{empty}
 
 \global\mdfdefinestyle{header}{%
-	linecolor=gray,linewidth=1pt,%
+	linecolor=black,linewidth=1pt,%
 	leftmargin=0mm,rightmargin=0mm,skipbelow=0mm,skipabove=0mm,
 }
 
-\newcommand{\header}{
-	\begin{mdframed}[style=header]
-		\footnotesize
-		Some Text Inside\\
-		Page~\thepage~of~6
-	\end{mdframed}
-}
+
+
 
 \makeatletter
 \renewcommand{\section}{\@startsection{section}{1}{5mm}%
@@ -65,7 +60,7 @@
 		%%%%% START CHANGE
 		\ifnum\count@=\numexpr\mult@rightbox+2\relax
 		\setbox\count@\vsplit\@cclv to \dimexpr \dimen@-1cm\relax
-		\setbox\count@\vbox to \dimen@{\vbox to 1cm{\header}\unvbox\count@\vss}%
+		%\setbox\count@\vbox to \dimen@{\vbox to 1.25cm{\header}\unvbox\count@\vss}%
 		\else
 		\setbox\count@\vsplit\@cclv to \dimen@
 		\fi
@@ -152,9 +147,29 @@
 \makeatother
 \setlength{\parindent}{0pt}
 
+% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+\newcommand{\header}{
+	\begin{mdframed}[style=header]
+		\footnotesize
+		\large \textbf{DSP Cheat Sheet}
+	\end{mdframed}
+}
+% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
 % INCLUDES
 % -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 \usepackage{amsmath, amsthm}
+\usepackage{titlesec}
+\usepackage{tikz,pgfplots,filecontents,amsmath}
+\pgfplotsset{compat=1.5}
+
+% FORMATTING
+% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+\titleformat*{\section}{\normalsize\bfseries}
+\titleformat*{\subsection}{\small\bfseries}
+
+
+
 
 
 \begin{document}
@@ -166,30 +181,105 @@
 		% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 		
 		% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-		\subsection{$\lambda$}
+		\subsection{init}
+		
+		\begin{align*}
+		f_s 		\;&=\; \text{sampling rate}\\
+		\lambda 	\;&=\; \text{wavelength}\\
+		T 			\;&=\; \text{period}\\
+		\omega 		\;&=\; \text{angular frequency}
+		\end{align*}
+		
+		
+		% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+		\subsection{wavelength $\lambda$}
 		$$\lambda = \frac{c}{f}$$
 		
-		\subsection{$T$}
+		
+		% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+		\subsection{period $T$}
 		$$T = 1\,ms = 1000\,Hz$$
 		
 		
 		% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-		\subsection{$\omega$}
+		\subsection{angular frequency $\omega$}
 		\begin{align*}
-			\omega 	&=	 2 \pi f\\
-			 		&= 	\frac{2\pi}{T}
+			\omega 	\;&=\;	 2 \pi f\\
+			 		\;&=\; 	\frac{2\pi}{T}
 		\end{align*}
 		
 		
 		\begin{align*}
-			\omega_0 	&=	 2 \pi T\\
-						&= 	\pi \frac{f_0}{fs}
+			\omega_0 	\;&=\;	 2 \pi T\\
+						\;&=\; 	\pi \frac{f_0}{fs}
 		\end{align*}
+		
+
+		% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+		\subsection{unit pulse \& unit step}
+		unit pulse:
+		\[
+		\delta(n)= 
+		\begin{cases}
+			1,& \text{if }  n = 0\\
+			\text{0 }  & \text{otherwise}
+		\end{cases}
+		\]
+		
+		unit step:
+		\[
+		u(n)= 
+		\begin{cases}
+		1,& \text{if }  n \geq 0\\
+		\text{0}  & \text{otherwise}
+		\end{cases}
+		\]
+		
+		% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+		\subsection{harmonic signals}
+		
+		$$n = [1:t \cdot f_s]$$
+		
+		\begin{align*}
+		x[n] 	\;&=\;	 sin(\omega_0 n + \varphi)\\
+				\;&=\;   sin(2 \pi f_0 T + \varphi)\\
+				\;&=\;   sin(2 \pi \frac{f_0}{fs}  n + \varphi)
+		\end{align*}
+		
 		
 		% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 		\tiny \texttt{\textbf{DSP Cheatsheet} - xhain - \today}\\
 		\tiny https://github.com/xhain/DSP\_Cheatsheet
 		\vspace{1cm}
+		% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+		
+		
+		% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+		%\vfill\null
+		\columnbreak
+		\footnotesize
+		% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+		\section{Frequency Domain}
+		% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+		
+		
+		% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+		\subsection{init}
+		
+		\begin{align*}
+		f_s 		\;&=\; \text{sampling rate}\\
+		\lambda 	\;&=\; \text{wavelength}\\
+		T 			\;&=\; \text{period}\\
+		\omega 		\;&=\; \text{angular frequency}
+		\end{align*}
+		
+		
+		% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+		\vfill\null
+		\columnbreak
+		% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+		\section{Other}
+		% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 		
 		
 	\end{multicols*}
