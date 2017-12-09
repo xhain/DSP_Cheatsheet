@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.2)  8 DEC 2017 23:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.2)  9 DEC 2017 01:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1440,34 +1440,34 @@ eX document
 (./dspcheatsheet.aux)
 \openout1 = `dspcheatsheet.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 175.
-LaTeX Font Info:    ... okay on input line 175.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 175.
-LaTeX Font Info:    ... okay on input line 175.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 175.
-LaTeX Font Info:    ... okay on input line 175.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 175.
-LaTeX Font Info:    ... okay on input line 175.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 175.
-LaTeX Font Info:    ... okay on input line 175.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 175.
-LaTeX Font Info:    ... okay on input line 175.
-LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 175.
-LaTeX Font Info:    Try loading font information for MDA+cmr on input line 175.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 185.
+LaTeX Font Info:    ... okay on input line 185.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 185.
+LaTeX Font Info:    ... okay on input line 185.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 185.
+LaTeX Font Info:    ... okay on input line 185.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 185.
+LaTeX Font Info:    ... okay on input line 185.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 185.
+LaTeX Font Info:    ... okay on input line 185.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 185.
+LaTeX Font Info:    ... okay on input line 185.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 185.
+LaTeX Font Info:    Try loading font information for MDA+cmr on input line 185.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/mathdesign/mdacmr.fd
 File: mdacmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 175.
-LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 175.
-LaTeX Font Info:    Try loading font information for MDB+cmr on input line 175.
+LaTeX Font Info:    ... okay on input line 185.
+LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 185.
+LaTeX Font Info:    Try loading font information for MDB+cmr on input line 185.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/mathdesign/mdbcmr.fd
 File: mdbcmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    ... okay on input line 185.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1535,7 +1535,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-LaTeX Info: Redefining \microtypecontext on input line 175.
+LaTeX Info: Redefining \microtypecontext on input line 185.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1554,129 +1554,115 @@ Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.15} (current compat level: 1.5).
 
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 7.52002pt on input line 176.
-LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
-(Font)              scaled to size 9.40002pt on input line 180.
+(Font)              scaled to size 7.52002pt on input line 188.
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 8.46002pt on input line 184.
+(Font)              scaled to size 8.46002pt on input line 190.
 LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
-(Font)              scaled to size 8.46002pt on input line 184.
+(Font)              scaled to size 8.46002pt on input line 190.
+LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
+(Font)              scaled to size 7.52002pt on input line 194.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
-(Font)              scaled to size 7.52002pt on input line 186.
+(Font)              scaled to size 7.52002pt on input line 196.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `mdput' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
-(Font)              scaled to size 5.64001pt on input line 186.
+(Font)              scaled to size 5.64001pt on input line 196.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 186.
-LaTeX Font Info:    Try loading font information for OML+mdput on input line 18
+(Font)              scaled to size 4.70001pt on input line 196.
+LaTeX Font Info:    Try loading font information for OML+mdput on input line 19
 6.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/mathdesign/mdput/omlmdput.fd
 File: omlmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdput.
 )
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 7.52002pt on input line 186.
+(Font)              scaled to size 7.52002pt on input line 196.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 5.64001pt on input line 186.
+(Font)              scaled to size 5.64001pt on input line 196.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 4.70001pt on input line 186.
-LaTeX Font Info:    Try loading font information for OMS+mdput on input line 18
+(Font)              scaled to size 4.70001pt on input line 196.
+LaTeX Font Info:    Try loading font information for OMS+mdput on input line 19
 6.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/mathdesign/mdput/omsmdput.fd
 File: omsmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdput.
 )
 LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 7.52002pt on input line 186.
+(Font)              scaled to size 7.52002pt on input line 196.
 LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 5.64001pt on input line 186.
+(Font)              scaled to size 5.64001pt on input line 196.
 LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 186.
-LaTeX Font Info:    Try loading font information for OMX+mdput on input line 18
+(Font)              scaled to size 4.70001pt on input line 196.
+LaTeX Font Info:    Try loading font information for OMX+mdput on input line 19
 6.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/mathdesign/mdput/omxmdput.fd
 File: omxmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdput.
 )
 LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 7.52002pt on input line 186.
+(Font)              scaled to size 7.52002pt on input line 196.
 LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 5.64001pt on input line 186.
+(Font)              scaled to size 5.64001pt on input line 196.
 LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 186.
+(Font)              scaled to size 4.70001pt on input line 196.
 LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 7.52002pt on input line 186.
+(Font)              scaled to size 7.52002pt on input line 196.
 LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 5.64001pt on input line 186.
+(Font)              scaled to size 5.64001pt on input line 196.
 LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 186.
-LaTeX Font Info:    Try loading font information for MDA+mdput on input line 18
+(Font)              scaled to size 4.70001pt on input line 196.
+LaTeX Font Info:    Try loading font information for MDA+mdput on input line 19
 6.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/mathdesign/mdput/mdamdput.fd
 File: mdamdput.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdput.
 )
 LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 7.52002pt on input line 186.
+(Font)              scaled to size 7.52002pt on input line 196.
 LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 5.64001pt on input line 186.
+(Font)              scaled to size 5.64001pt on input line 196.
 LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 186.
-LaTeX Font Info:    Try loading font information for MDB+mdput on input line 18
+(Font)              scaled to size 4.70001pt on input line 196.
+LaTeX Font Info:    Try loading font information for MDB+mdput on input line 19
 6.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/mathdesign/mdput/mdbmdput.fd
 File: mdbmdput.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdput.
 )
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 7.52002pt on input line 186.
+(Font)              scaled to size 7.52002pt on input line 196.
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 5.64001pt on input line 186.
+(Font)              scaled to size 5.64001pt on input line 196.
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 186.
+(Font)              scaled to size 4.70001pt on input line 196.
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 5.64001pt on input line 191.
+(Font)              scaled to size 5.64001pt on input line 201.
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 191.
-LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
-(Font)              scaled to size 8.46002pt on input line 195.
-LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 8.46002pt on input line 195.
-LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 8.46002pt on input line 195.
-LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 8.46002pt on input line 195.
-LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 8.46002pt on input line 195.
-LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 8.46002pt on input line 195.
-LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 8.46002pt on input line 195.
+(Font)              scaled to size 4.70001pt on input line 201.
 LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
-(Font)              scaled to size 5.35004pt on input line 251.
+(Font)              scaled to size 5.35004pt on input line 261.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/cmtt/b/n' in size <5> not available
-(Font)              Font shape `T1/cmtt/bx/n' tried instead on input line 251.
+(Font)              Font shape `T1/cmtt/bx/n' tried instead on input line 261.
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <5> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 251.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 261.
 LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
-(Font)              scaled to size 5.35004pt on input line 251.
+(Font)              scaled to size 5.35004pt on input line 261.
 
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./dspcheatsheet.aux) ) 
 Here is how much of TeX's memory you used:
- 35882 strings out of 492990
- 832589 string characters out of 6132636
- 1156985 words of memory out of 5000000
- 38845 multiletter control sequences out of 15000+600000
- 612526 words of font info for 95 fonts, out of 8000000 for 9000
+ 35861 strings out of 492990
+ 832242 string characters out of 6132636
+ 1156984 words of memory out of 5000000
+ 38831 multiletter control sequences out of 15000+600000
+ 606496 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,10n,96p,10424b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-s
@@ -1691,10 +1677,10 @@ onts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
 pe1/adobe/utopia/putr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/ado
 be/utopia/putri8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm
 -super/sftt0800.pfb>
-Output written on dspcheatsheet.pdf (1 page, 85305 bytes).
+Output written on dspcheatsheet.pdf (1 page, 85185 bytes).
 PDF statistics:
  49 PDF objects out of 1000 (max. 8388607)
  36 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 19981 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 17933 words of extra memory for PDF output out of 20736 (max. 10000000)
 

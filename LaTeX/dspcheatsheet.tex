@@ -156,32 +156,42 @@
 }
 % -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 
-% INCLUDES
+%% INCLUDES
 % -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 \usepackage{amsmath, amsthm}
 \usepackage{titlesec}
 \usepackage{tikz,pgfplots,filecontents,amsmath}
 \pgfplotsset{compat=1.5}
 
-% FORMATTING
+%% FORMATTING
 % -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
-\titleformat*{\section}{\normalsize\bfseries}
-\titleformat*{\subsection}{\small\bfseries}
+\titleformat*{\section}{\small\bfseries}
+\titleformat*{\subsection}{\footnotesize\bfseries}
+
+%% no counter for section, only subsection
+\renewcommand{\thesection}{}
+\renewcommand{\thesubsection}{\arabic{subsection}}
+%\setcounter{secnumdepth}{1}
+
+%% space under section
+ \titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{6pt plus 2pt minus 2pt}
+%\titlespacing\subsection{0pt}{0pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+%\titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
 
 
 
 
 
 \begin{document}
-	\footnotesize
 	\begin{multicols*}{5}
 		
+		\footnotesize
 		% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 		\section{Time Domain}
 		% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 		
 		% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-		\subsection{init}
+		\subsection{Definition}
 		
 		\begin{align*}
 		f_s 		\;&=\; \text{sampling rate}\\
@@ -192,17 +202,17 @@
 		
 		
 		% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-		\subsection{wavelength $\lambda$}
+		\subsection{Wavelength $\lambda$}
 		$$\lambda = \frac{c}{f}$$
 		
 		
 		% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-		\subsection{period $T$}
+		\subsection{Period $T$}
 		$$T = 1\,ms = 1000\,Hz$$
 		
 		
 		% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-		\subsection{angular frequency $\omega$}
+		\subsection{Angular Frequency $\omega$}
 		\begin{align*}
 			\omega 	\;&=\;	 2 \pi f\\
 			 		\;&=\; 	\frac{2\pi}{T}
@@ -216,7 +226,7 @@
 		
 
 		% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-		\subsection{unit pulse \& unit step}
+		\subsection{Unit Pulse \& Unit Step}
 		unit pulse:
 		\[
 		\delta(n)= 
@@ -236,7 +246,7 @@
 		\]
 		
 		% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-		\subsection{harmonic signals}
+		\subsection{Harmonic Signals}
 		
 		$$n = [1:t \cdot f_s]$$
 		
@@ -248,7 +258,7 @@
 		
 		
 		% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-		\tiny \texttt{\textbf{DSP Cheatsheet} - xhain - \today}\\
+		\tiny \texttt{\textbf{DSP Cheatsheet} - \today}\\
 		\tiny https://github.com/xhain/DSP\_Cheatsheet
 		\vspace{1cm}
 		% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
@@ -264,7 +274,7 @@
 		
 		
 		% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-		\subsection{init}
+		\subsection{Definition}
 		
 		\begin{align*}
 		f_s 		\;&=\; \text{sampling rate}\\
