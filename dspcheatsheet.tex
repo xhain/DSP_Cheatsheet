@@ -179,9 +179,15 @@
 %\titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
 
 
+%% COMMANDS
+% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+\newcommand{\mi}{\mathrm{i}} %% roman "i"
+\newcommand{\di}{i}          %% default math "i"
 
 
 
+%% START DOCUMENT
+% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 \begin{document}
 	\begin{multicols*}{5}
 		
@@ -248,12 +254,15 @@
 		% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 		\subsection{Harmonic Signals}
 		
-		$$n = [1:t \cdot f_s]$$
-		
 		\begin{align*}
-		x[n] 	\;&=\;	 sin(\omega_0 n + \varphi)\\
-				\;&=\;   sin(2 \pi f_0 T + \varphi)\\
-				\;&=\;   sin(2 \pi \frac{f_0}{fs}  n + \varphi)
+		n 		\;&=\; 		[1:t \cdot f_s] \\
+				\;& \;		\\
+		x[n] 	\;&=\;	 	sin(\omega_0 n + \varphi)\\
+				\;&=\;   	sin(2 \pi f_0 T + \varphi)\\
+				\;&=\;   	sin(2 \pi \frac{f_0}{fs}  n + \varphi)\\
+				\;& \; 		\\
+		x[n]	\;&=\;		e^{-\mi \omega_0 n}\\
+				\;&=\;		cos(\omega_0 n) + \mi\; sin(\omega_0 n)
 		\end{align*}
 		
 		
@@ -282,6 +291,26 @@
 		T 			\;&=\; \text{period}\\
 		\omega 		\;&=\; \text{angular frequency}
 		\end{align*}
+		
+		% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+		\vfill\null
+		\columnbreak
+		% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+		\section{LTI Systems}
+		% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+		
+		\begin{align*}
+		y[n]		\;&=\; T \{ \;x[n]\; \}
+		\end{align*}
+		
+		\textit{Linear time-invariant systems} (LTI systems) are a class of systems used in signals and systems that are both linear and time-invariant. Linear systems are systems whose outputs for a linear combination of inputs are the same as a linear combination of individual responses to those inputs. Time-invariant systems are systems where the output does not depend on when an input was applied. These properties make LTI systems easier to represent and understand.
+		
+		\begin{enumerate}
+			\item memory freedom
+			\item causality
+			\item stability (BIBO)
+		\end{enumerate}
+		
 		
 		
 		% -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
