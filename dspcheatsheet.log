@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.2)  12 DEC 2017 23:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.2)  29 APR 2018 21:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1229,9 +1229,28 @@ Package microtype Info: Loading configuration file microtype.cfg.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2017/07/07 v2.7 microtype main configuration file (RS)
 ))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2017/05/24 v1.19 mathematical typesetting tools
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count286
+\calc@Bcount=\count287
+\calc@Adimen=\dimen257
+\calc@Bdimen=\dimen258
+\calc@Askip=\skip120
+\calc@Bskip=\skip121
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count288
+\calc@Cskip=\skip122
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2017/09/02 v2.17a AMS math features
-\@mathmargin=\skip120
+\@mathmargin=\skip123
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -1240,88 +1259,110 @@ Package: amstext 2000/06/29 v2.01 AMS text
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks34
-\ex@=\dimen257
+\ex@=\dimen259
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen258
+\pmbraise@=\dimen260
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count286
+\inf@bad=\count289
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count287
-\leftroot@=\count288
+\uproot@=\count290
+\leftroot@=\count291
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count289
-\DOTSCASE@=\count290
+\classnum@=\count292
+\DOTSCASE@=\count293
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box84
 \strutbox@=\box85
-\big@size=\dimen259
+\big@size=\dimen261
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count291
-\c@MaxMatrixCols=\count292
+\macc@depth=\count294
+\c@MaxMatrixCols=\count295
 \dotsspace@=\muskip16
-\c@parentequation=\count293
-\dspbrk@lvl=\count294
+\c@parentequation=\count296
+\dspbrk@lvl=\count297
 \tag@help=\toks35
-\row@=\count295
-\column@=\count296
-\maxfields@=\count297
+\row@=\count298
+\column@=\count299
+\maxfields@=\count300
 \andhelp@=\toks36
-\eqnshift@=\dimen260
-\alignsep@=\dimen261
-\tagshift@=\dimen262
-\tagwidth@=\dimen263
-\totwidth@=\dimen264
-\lineht@=\dimen265
+\eqnshift@=\dimen262
+\alignsep@=\dimen263
+\tagshift@=\dimen264
+\tagwidth@=\dimen265
+\totwidth@=\dimen266
+\lineht@=\dimen267
 \@envbody=\toks37
-\multlinegap=\skip121
-\multlinetaggap=\skip122
+\multlinegap=\skip124
+\multlinetaggap=\skip125
 \mathdisplay@stack=\toks38
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count301
+\l_MT_multwidth_dim=\dimen268
+\origjot=\skip126
+\l_MT_shortvdotswithinadjustabove_dim=\dimen269
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen270
+\l_MT_above_intertext_sep=\dimen271
+\l_MT_below_intertext_sep=\dimen272
+\l_MT_above_shortintertext_sep=\dimen273
+\l_MT_below_shortintertext_sep=\dimen274
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count302
+\float@exts=\toks39
+\float@box=\box86
+\@float@everytoks=\toks40
+\@floatcapt=\box87
+)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2015/03/04 v2.20.2
-\thm@style=\toks39
-\thm@bodyfont=\toks40
-\thm@headfont=\toks41
-\thm@notefont=\toks42
-\thm@headpunct=\toks43
-\thm@preskip=\skip123
-\thm@postskip=\skip124
-\thm@headsep=\skip125
-\dth@everypar=\toks44
+\thm@style=\toks41
+\thm@bodyfont=\toks42
+\thm@headfont=\toks43
+\thm@notefont=\toks44
+\thm@headpunct=\toks45
+\thm@preskip=\skip127
+\thm@postskip=\skip128
+\thm@headsep=\skip129
+\dth@everypar=\toks46
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box86
-\beforetitleunit=\skip126
-\aftertitleunit=\skip127
-\ttl@plus=\dimen266
-\ttl@minus=\dimen267
-\ttl@toksa=\toks45
-\titlewidth=\dimen268
-\titlewidthlast=\dimen269
-\titlewidthfirst=\dimen270
+\ttl@box=\box88
+\beforetitleunit=\skip130
+\aftertitleunit=\skip131
+\ttl@plus=\dimen275
+\ttl@minus=\dimen276
+\ttl@toksa=\toks47
+\titlewidth=\dimen277
+\titlewidthlast=\dimen278
+\titlewidthfirst=\dimen279
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/pgfplots/pgfplots.sty
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplots 2017/06/05 v1.15 Data Visualization (1.15)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
-\t@pgfplots@toka=\toks46
-\t@pgfplots@tokb=\toks47
-\t@pgfplots@tokc=\toks48
-\pgfplots@tmpa=\dimen271
-\c@pgfplots@coordindex=\count298
-\c@pgfplots@scanlineindex=\count299
+\t@pgfplots@toka=\toks48
+\t@pgfplots@tokb=\toks49
+\t@pgfplots@tokc=\toks50
+\pgfplots@tmpa=\dimen280
+\c@pgfplots@coordindex=\count303
+\c@pgfplots@scanlineindex=\count304
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric
 .code.tex))
@@ -1337,7 +1378,7 @@ Package pgfplots: loading complementary arithmetics for your pgf version...
 soldpgfsupp_pgflibraryfpu.code.tex)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplot
 soldpgfsupp_pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count300
+\c@pgfmathroundto@lastzeros=\count305
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code
 .tex
@@ -1347,14 +1388,14 @@ liststructure.code.tex)
 liststructureext.code.tex)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
 array.code.tex
-\c@pgfplotsarray@tmp=\count301
+\c@pgfplotsarray@tmp=\count306
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
 matrix.code.tex)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable
 shared.code.tex
-\c@pgfplotstable@counta=\count302
-\t@pgfplotstable@a=\toks49
+\c@pgfplotstable@counta=\count307
+\t@pgfplotstable@a=\toks51
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
 deque.code.tex)
@@ -1366,7 +1407,7 @@ ta.code.tex))
 .code.tex)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplot
 s.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count303
+\c@pgfplotslibrarysurf@no=\count308
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots
 .surfshading.pgfsys-pdftex.def)))
@@ -1398,16 +1439,16 @@ x)
 s/tikzlibrarydecorations.code.tex
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
 s.code.tex
-\pgfdecoratedcompleteddistance=\dimen272
-\pgfdecoratedremainingdistance=\dimen273
-\pgfdecoratedinputsegmentcompleteddistance=\dimen274
-\pgfdecoratedinputsegmentremainingdistance=\dimen275
-\pgf@decorate@distancetomove=\dimen276
-\pgf@decorate@repeatstate=\count304
-\pgfdecorationsegmentamplitude=\dimen277
-\pgfdecorationsegmentlength=\dimen278
+\pgfdecoratedcompleteddistance=\dimen281
+\pgfdecoratedremainingdistance=\dimen282
+\pgfdecoratedinputsegmentcompleteddistance=\dimen283
+\pgfdecoratedinputsegmentremainingdistance=\dimen284
+\pgf@decorate@distancetomove=\dimen285
+\pgf@decorate@repeatstate=\count309
+\pgfdecorationsegmentamplitude=\dimen286
+\pgfdecorationsegmentlength=\dimen287
 )
-\tikz@lib@dec@box=\box87
+\tikz@lib@dec@box=\box89
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarydecorations.pathmorphing.code.tex
@@ -1417,13 +1458,13 @@ brarydecorations.pathmorphing.code.tex))
 s/tikzlibrarydecorations.pathreplacing.code.tex
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
 brarydecorations.pathreplacing.code.tex))
-\pgfplots@numplots=\count305
-\pgfplots@xmin@reg=\dimen279
-\pgfplots@xmax@reg=\dimen280
-\pgfplots@ymin@reg=\dimen281
-\pgfplots@ymax@reg=\dimen282
-\pgfplots@zmin@reg=\dimen283
-\pgfplots@zmax@reg=\dimen284
+\pgfplots@numplots=\count310
+\pgfplots@xmin@reg=\dimen288
+\pgfplots@xmax@reg=\dimen289
+\pgfplots@ymin@reg=\dimen290
+\pgfplots@ymax@reg=\dimen291
+\pgfplots@zmin@reg=\dimen292
+\pgfplots@zmax@reg=\dimen293
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibraryplotmarks.code.tex
@@ -1440,34 +1481,34 @@ eX document
 (./dspcheatsheet.aux)
 \openout1 = `dspcheatsheet.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 191.
-LaTeX Font Info:    ... okay on input line 191.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 191.
-LaTeX Font Info:    ... okay on input line 191.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 191.
-LaTeX Font Info:    ... okay on input line 191.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 191.
-LaTeX Font Info:    ... okay on input line 191.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 191.
-LaTeX Font Info:    ... okay on input line 191.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 191.
-LaTeX Font Info:    ... okay on input line 191.
-LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 191.
-LaTeX Font Info:    Try loading font information for MDA+cmr on input line 191.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 200.
+LaTeX Font Info:    ... okay on input line 200.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 200.
+LaTeX Font Info:    ... okay on input line 200.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 200.
+LaTeX Font Info:    ... okay on input line 200.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 200.
+LaTeX Font Info:    ... okay on input line 200.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 200.
+LaTeX Font Info:    ... okay on input line 200.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 200.
+LaTeX Font Info:    ... okay on input line 200.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 200.
+LaTeX Font Info:    Try loading font information for MDA+cmr on input line 200.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/mathdesign/mdacmr.fd
 File: mdacmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 191.
-LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 191.
-LaTeX Font Info:    Try loading font information for MDB+cmr on input line 191.
+LaTeX Font Info:    ... okay on input line 200.
+LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 200.
+LaTeX Font Info:    Try loading font information for MDB+cmr on input line 200.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/mathdesign/mdbcmr.fd
 File: mdbcmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    ... okay on input line 200.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1503,20 +1544,20 @@ LaTeX Font Info:    ... okay on input line 191.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box88
+\AtBeginShipoutBox=\box90
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count306
-\scratchdimen=\dimen285
-\scratchbox=\box89
-\nofMPsegments=\count307
-\nofMParguments=\count308
-\everyMPshowfont=\toks50
-\MPscratchCnt=\count309
-\MPscratchDim=\dimen286
-\MPnumerator=\count310
-\makeMPintoPDFobject=\count311
-\everyMPtoPDFconversion=\toks51
+\scratchcounter=\count311
+\scratchdimen=\dimen294
+\scratchbox=\box91
+\nofMPsegments=\count312
+\nofMParguments=\count313
+\everyMPshowfont=\toks52
+\MPscratchCnt=\count314
+\MPscratchDim=\dimen295
+\MPnumerator=\count315
+\makeMPintoPDFobject=\count316
+\everyMPtoPDFconversion=\toks53
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1535,7 +1576,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-LaTeX Info: Redefining \microtypecontext on input line 191.
+LaTeX Info: Redefining \microtypecontext on input line 200.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1554,119 +1595,140 @@ Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.15} (current compat level: 1.5).
 
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 7.52002pt on input line 194.
+(Font)              scaled to size 7.52002pt on input line 203.
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 8.46002pt on input line 196.
+(Font)              scaled to size 8.46002pt on input line 205.
 LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
-(Font)              scaled to size 8.46002pt on input line 196.
+(Font)              scaled to size 8.46002pt on input line 205.
 LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
-(Font)              scaled to size 7.52002pt on input line 200.
+(Font)              scaled to size 7.52002pt on input line 209.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
-(Font)              scaled to size 7.52002pt on input line 202.
+(Font)              scaled to size 7.52002pt on input line 211.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `mdput' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
-(Font)              scaled to size 5.64001pt on input line 202.
+(Font)              scaled to size 5.64001pt on input line 211.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 202.
-LaTeX Font Info:    Try loading font information for OML+mdput on input line 20
-2.
+(Font)              scaled to size 4.70001pt on input line 211.
+LaTeX Font Info:    Try loading font information for OML+mdput on input line 21
+1.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/mathdesign/mdput/omlmdput.fd
 File: omlmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdput.
 )
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 7.52002pt on input line 202.
+(Font)              scaled to size 7.52002pt on input line 211.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 5.64001pt on input line 202.
+(Font)              scaled to size 5.64001pt on input line 211.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 4.70001pt on input line 202.
-LaTeX Font Info:    Try loading font information for OMS+mdput on input line 20
-2.
+(Font)              scaled to size 4.70001pt on input line 211.
+LaTeX Font Info:    Try loading font information for OMS+mdput on input line 21
+1.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/mathdesign/mdput/omsmdput.fd
 File: omsmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdput.
 )
 LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 7.52002pt on input line 202.
+(Font)              scaled to size 7.52002pt on input line 211.
 LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 5.64001pt on input line 202.
+(Font)              scaled to size 5.64001pt on input line 211.
 LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 202.
-LaTeX Font Info:    Try loading font information for OMX+mdput on input line 20
-2.
+(Font)              scaled to size 4.70001pt on input line 211.
+LaTeX Font Info:    Try loading font information for OMX+mdput on input line 21
+1.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/mathdesign/mdput/omxmdput.fd
 File: omxmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdput.
 )
 LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 7.52002pt on input line 202.
+(Font)              scaled to size 7.52002pt on input line 211.
 LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 5.64001pt on input line 202.
+(Font)              scaled to size 5.64001pt on input line 211.
 LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 202.
+(Font)              scaled to size 4.70001pt on input line 211.
 LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 7.52002pt on input line 202.
+(Font)              scaled to size 7.52002pt on input line 211.
 LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 5.64001pt on input line 202.
+(Font)              scaled to size 5.64001pt on input line 211.
 LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 202.
-LaTeX Font Info:    Try loading font information for MDA+mdput on input line 20
-2.
+(Font)              scaled to size 4.70001pt on input line 211.
+LaTeX Font Info:    Try loading font information for MDA+mdput on input line 21
+1.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/mathdesign/mdput/mdamdput.fd
 File: mdamdput.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdput.
 )
 LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 7.52002pt on input line 202.
+(Font)              scaled to size 7.52002pt on input line 211.
 LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 5.64001pt on input line 202.
+(Font)              scaled to size 5.64001pt on input line 211.
 LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 202.
-LaTeX Font Info:    Try loading font information for MDB+mdput on input line 20
-2.
+(Font)              scaled to size 4.70001pt on input line 211.
+LaTeX Font Info:    Try loading font information for MDB+mdput on input line 21
+1.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/mathdesign/mdput/mdbmdput.fd
 File: mdbmdput.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdput.
 )
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 7.52002pt on input line 202.
+(Font)              scaled to size 7.52002pt on input line 211.
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 5.64001pt on input line 202.
+(Font)              scaled to size 5.64001pt on input line 211.
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 202.
+(Font)              scaled to size 4.70001pt on input line 211.
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 5.64001pt on input line 207.
+(Font)              scaled to size 5.64001pt on input line 216.
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 207.
+(Font)              scaled to size 4.70001pt on input line 216.
 LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
-(Font)              scaled to size 5.35004pt on input line 270.
+(Font)              scaled to size 5.35004pt on input line 279.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/cmtt/b/n' in size <5> not available
-(Font)              Font shape `T1/cmtt/bx/n' tried instead on input line 270.
+(Font)              Font shape `T1/cmtt/bx/n' tried instead on input line 279.
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <5> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 270.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 279.
 LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
-(Font)              scaled to size 5.35004pt on input line 270.
+(Font)              scaled to size 5.35004pt on input line 279.
 LaTeX Font Info:    Font shape `T1/mdput/m/it' will be
-(Font)              scaled to size 7.52002pt on input line 306.
+(Font)              scaled to size 7.52002pt on input line 315.
+<img/FilterDesignCriteria.png, id=4, 1282.7925pt x 832.10875pt>
+File: img/FilterDesignCriteria.png Graphic file (type png)
+<use img/FilterDesignCriteria.png>
+Package pdftex.def Info: img/FilterDesignCriteria.png  used on input line 344. 
+on input line 344.
+Package pdftex.def Info: Requested size: 108.72269pt x 70.5188pt on input line 
+344.
+
+
+Package multicol Warning: Floats and marginpars not allowed inside `multicols' 
+environment!.
+
+
+Package multicol Warning: Floats and marginpars not allowed inside `multicols' 
+environment!.
+
+
+Overfull \hbox (34.34787pt too wide) detected at line 403
+\OML/mdput/m/it/8 T[]\OT1/mdput/m/n/8 (\OML/mdput/m/it/8 ^^Q\OT1/mdput/m/n/8 ) 
+= [] = \OML/mdput/m/it/8 xy
+ []
 
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./dspcheatsheet.aux) ) 
 Here is how much of TeX's memory you used:
- 35910 strings out of 492990
- 832770 string characters out of 6132636
- 1159985 words of memory out of 5000000
- 38836 multiletter control sequences out of 15000+600000
- 617652 words of font info for 116 fonts, out of 8000000 for 9000
+ 36545 strings out of 492990
+ 843772 string characters out of 6132636
+ 1183123 words of memory out of 5000000
+ 39429 multiletter control sequences out of 15000+600000
+ 620137 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,10n,96p,10424b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,11n,96p,10424b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-s
 uper/cm-super-t1.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/ly1/te
 xnansi.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/mathdesign/md
@@ -1679,10 +1741,10 @@ onts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
 pe1/adobe/utopia/putr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/ado
 be/utopia/putri8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm
 -super/sftt0800.pfb>
-Output written on dspcheatsheet.pdf (1 page, 89056 bytes).
+Output written on dspcheatsheet.pdf (1 page, 95886 bytes).
 PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
+ 51 PDF objects out of 1000 (max. 8388607)
  36 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 24077 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 24082 words of extra memory for PDF output out of 24883 (max. 10000000)
 
