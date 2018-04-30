@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.2)  29 APR 2018 21:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.2)  29 APR 2018 22:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1712,7 +1712,7 @@ Package multicol Warning: Floats and marginpars not allowed inside `multicols'
 environment!.
 
 
-Overfull \hbox (34.34787pt too wide) detected at line 403
+Overfull \hbox (34.34787pt too wide) detected at line 402
 \OML/mdput/m/it/8 T[]\OT1/mdput/m/n/8 (\OML/mdput/m/it/8 ^^Q\OT1/mdput/m/n/8 ) 
 = [] = \OML/mdput/m/it/8 xy
  []
@@ -1724,7 +1724,7 @@ Overfull \hbox (34.34787pt too wide) detected at line 403
 Here is how much of TeX's memory you used:
  36545 strings out of 492990
  843772 string characters out of 6132636
- 1183123 words of memory out of 5000000
+ 1182123 words of memory out of 5000000
  39429 multiletter control sequences out of 15000+600000
  620137 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1741,7 +1741,7 @@ onts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
 pe1/adobe/utopia/putr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/ado
 be/utopia/putri8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm
 -super/sftt0800.pfb>
-Output written on dspcheatsheet.pdf (1 page, 95886 bytes).
+Output written on dspcheatsheet.pdf (1 page, 95908 bytes).
 PDF statistics:
  51 PDF objects out of 1000 (max. 8388607)
  36 compressed objects within 1 object stream
